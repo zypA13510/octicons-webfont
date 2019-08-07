@@ -1,0 +1,353 @@
+---
+  root: true
+  extends: eslint:recommended
+  env:
+    node: true
+    es6: true
+  parserOptions:
+    ecmaVersion: 2018
+  rules:
+    accessor-pairs:
+      - warn
+      - setWithoutGet: true
+        getWithoutSet: false
+    array-bracket-newline:
+      - error
+      - consistent
+    array-bracket-spacing:
+      - error
+      - never
+    array-callback-return:
+      - warn
+    array-element-newline:
+      - error
+      - consistent
+    brace-style:
+      - error
+      - 1tbs
+    class-methods-use-this:
+      - warn
+    comma-dangle:
+      - error
+      - always-multiline
+    comma-spacing:
+      - error
+      - before: false
+        after: true
+    comma-style:
+      - error
+      - last
+    complexity:
+      - warn
+      - max: 20
+    consistent-return:
+      - warn
+    curly:
+      - error
+      - all
+    default-case:
+      - warn
+      - commentPattern: ^no default$
+    dot-location:
+      - error
+      - property
+    dot-notation:
+      - error
+    eol-last:
+      - error
+      - always
+    func-call-spacing:
+      - error
+      - never
+    function-paren-newline:
+      - error
+      - consistent
+    guard-for-in:
+      - warn
+    indent:
+      - error
+      - 2
+    key-spacing:
+      - error
+      - beforeColon: false
+        afterColon: true
+    keyword-spacing:
+      - error
+      - before: true
+        after: true
+    linebreak-style:
+      - error
+      - unix
+    max-classes-per-file:
+      - warn
+      - 1
+    max-depth:
+      - warn
+      - max: 5
+    max-len:
+      - warn
+      - code: 240
+    max-lines:
+      - warn
+      - max: 300
+    max-nested-callbacks:
+      - warn
+      - max: 5
+    max-params:
+      - warn
+      - max: 5
+    max-statements:
+      - warn
+      - max: 100
+    max-statements-per-line:
+      - error
+      - max: 1
+    multiline-ternary:
+      - error
+      - always-multiline
+    new-parens:
+      - error
+      - always
+    newline-per-chained-call:
+      - warn
+      - ignoreChainWithDepth: 3
+    no-array-constructor:
+      - error
+    no-caller:
+      - error
+    no-empty-function:
+      - warn
+    no-eq-null:
+      - error
+    no-eval:
+      - error
+    no-extend-native:
+      - error
+    no-extra-bind:
+      - error
+    no-floating-decimal:
+      - error
+    no-implicit-coercion:
+      - error
+    no-implied-eval:
+      - error
+    no-invalid-this:
+      - error
+    no-iterator:
+      - error
+    no-labels:
+      - error
+    no-lone-blocks:
+      - error
+    no-lonely-if:
+      - error
+    no-multi-assign:
+      - error
+    no-multi-str:
+      - warn
+    no-negated-condition:
+      - warn
+    no-new:
+      - error
+    no-new-func:
+      - error
+    no-new-object:
+      - error
+    no-new-wrappers:
+      - error
+    no-octal-escape:
+      - error
+    no-proto:
+      - error
+    no-return-assign:
+      - warn
+    no-return-await:
+      - error
+    no-script-url:
+      - error
+    no-self-compare:
+      - error
+    no-sequences:
+      - error
+    no-template-curly-in-string:
+      - warn
+    no-trailing-spaces:
+      - error
+      - skipBlankLines: true
+    no-undef-init:
+      - error
+    no-undefined:
+      - error
+    no-unmodified-loop-condition:
+      - error
+    no-unneeded-ternary:
+      - error
+      - defaultAssignment: false
+    no-unused-expressions:
+      - error
+    no-use-before-define:
+      - error
+      - nofunc
+    no-useless-call:
+      - error
+    no-useless-concat:
+      - warn
+    no-useless-return:
+      - error
+    no-void:
+      - error
+    no-warning-comments:
+      - warn
+      - terms:
+          - todo
+        location: start
+    no-whitespace-before-property:
+      - error
+    object-curly-newline:
+      - error
+      - consistent: true
+    object-curly-spacing:
+      - error
+      - never
+    object-property-newline:
+      - error
+      - allowAllPropertiesOnSameLine: true
+    one-var:
+      - error
+      - uninitialized: consecutive
+    operator-assignment:
+      - warn
+      - always
+    operator-linebreak:
+      - error
+      - after
+      - overrides:
+          ?: before
+          :: before
+    quotes:
+      - error
+      - single
+      - avoidEscape: true
+    radix:
+      - warn
+      - as-needed
+    require-await:
+      - warn
+    require-unicode-regexp:
+      - warn
+    semi:
+      - error
+      - never
+    semi-spacing:
+      - error
+      - before: false
+        after: false
+    semi-style:
+      - error
+      - first
+    space-before-blocks:
+      - error
+      - always
+    space-before-function-paren:
+      - error
+      - never
+    space-in-parens:
+      - error
+      - never
+    space-infix-ops:
+      - error
+    space-unary-ops:
+      - error
+      - words: true
+        nonwords: false
+    spaced-comment:
+      - error
+      - always
+      - exceptions:
+          - "-"
+          - "*"
+    strict:
+      - error
+      - safe
+    switch-colon-spacing:
+      - error
+      - before: false
+        after: true
+    template-tag-spacing:
+      - error
+      - never
+    unicode-bom:
+      - error
+      - never
+    wrap-iife:
+      - error
+      - inside
+      - functionPrototypeMethods: true
+    yoda:
+      - error
+      - never
+      - exceptRange: true
+    #
+    # ES6
+    #
+    arrow-body-style:
+      - error
+      - as-needed
+    arrow-parens:
+      - warn
+      - as-needed
+    arrow-spacing:
+      - error
+      - before: true
+        after: true
+    generator-star-spacing:
+      - error
+      - before: false
+        after: true
+        method: neither
+    no-confusing-arrow:
+      - warn
+      - allowParens: true
+    no-useless-computed-key:
+      - error
+    no-useless-constructor:
+      - error
+    no-useless-rename:
+      - error
+    no-var:
+      - error
+    rest-spread-spacing:
+      - error
+      - never
+    symbol-description:
+      - error
+    template-curly-spacing:
+      - error
+      - never
+    yield-star-spacing:
+      - error
+      - after
+    #
+    # Node.js
+    #
+    callback-return:
+      - warn
+      - - callback
+        - cb
+        - next
+        - done
+        - resolve
+        - reject
+    global-require:
+      - warn
+    handle-callback-err:
+      - warn
+      - (err|error)
+    no-buffer-constructor:
+      - error
+    no-new-require:
+      - error
+    no-path-concat:
+      - error
+    no-sync:
+      - warn

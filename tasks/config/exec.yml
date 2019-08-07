@@ -1,0 +1,1 @@
+buildMetadata: node tasks/build-metadata.js

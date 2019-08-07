@@ -1,0 +1,27 @@
+options:
+  font: octicons
+  fontFamilyName: Octicons
+  types: eot,woff,woff2,ttf,svg
+  fontHeight: 96
+  normalize: false
+  ascent: 84
+  descent: 12
+  htmlDemo: false
+  codepointsFile: build/codepoints.json
+  templateOptions:
+    baseClass: octicon
+    classPrefix: octicon-
+    mixinPrefix: octicon-
+    fontFamilyName: Octicons
+  engine: node
+octicons_css:
+  src: node_modules/@primer/octicons/build/svg/*.svg
+  dest: build
+  options:
+    template: lib/template.css
+octicons_scss:
+  src: node_modules/@primer/octicons/build/svg/*.svg
+  dest: build
+  options:
+    stylesheet: scss
+    template: lib/template.scss

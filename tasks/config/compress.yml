@@ -1,0 +1,6 @@
+release:
+  options:
+    archive: dist/<%= package.name %>-<%= version %>.zip
+  files:
+  - src: <%= package.files %>
+    dest: /

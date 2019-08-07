@@ -1,0 +1,9 @@
+build:
+- clean
+- exec
+- webfont
+- postcss
+
+release:
+- build
+- compress
