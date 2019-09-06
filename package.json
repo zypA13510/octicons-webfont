@@ -1,6 +1,6 @@
 {
   "name": "octicons-webfont",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "An unofficial web-font port of Octicons",
   "scripts": {
     "commit": "git-cz",
