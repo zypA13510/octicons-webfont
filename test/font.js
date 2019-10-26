@@ -17,7 +17,10 @@ const ALERT_ICON_CODE_POINT = 61485
             return reject(err)
           } else {
             font = result
-            numberOfIcons = font.characterSet.length
+            // fontforge engine will insert a tofu character at 65535
+            numberOfIcons = font.characterSet
+              .filter(codepoint => codepoint != 65535)
+              .length
             return resolve()
           }
         })
