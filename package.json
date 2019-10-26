@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/zypA13510/octicons-webfont#readme",
   "dependencies": {
-    "@primer/octicons": "9.1.1"
+    "@primer/octicons": "9.2.0"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^8.2.0",

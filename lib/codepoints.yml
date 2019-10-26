@@ -174,7 +174,8 @@
   plus-small: 61700
   reply: 61701
 #
-# codepoints after v4.4.0, manually allocated (last: 61723)
+# codepoints after v4.4.0, manually allocated
+# (last one: primitive-dot-stroke 61726)
 #
   archive: 61709
   arrow-both: 61710
@@ -187,11 +188,13 @@
   kebab-vertical: 61707
   note: 61705
   play: 61719
+  primitive-dot-stroke: 61726
   project: 61702
   repo-template: 61716
   repo-template-private: 61717
   report: 61708
   request-changes: 61714
+  saved: 61724
   screen-full: 61703
   screen-normal: 61704
   shield: 61721
@@ -199,3 +202,4 @@
   shield-lock: 61665
   shield-x: 61723
   skip: 61718
+  unsaved: 61725
