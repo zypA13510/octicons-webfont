@@ -79,5 +79,14 @@
       "path": "@commitlint/prompt"
     }
   },
-  "browserslist": "defaults"
+  "browserslist": "defaults",
+  "greenkeeper": {
+    "commitMesages": {
+      "dependencyUpdate": "fix(deps): update dependency\n\nupdate ${dependency} to ${version}",
+      "devDependencyUpdate": "build(deps): update devDependency\n\nupdate ${dependency} to ${version}",
+      "lockfileUpdate": "build(deps): update lockfile ${lockfilePath}",
+      "dependencyPin": "fix(deps): pin dependency version\n\npin ${dependency} to ${oldVersion}",
+      "devDependencyPin": "build(deps): pin devDependency version\n\npin ${dependency} to ${oldVersion}"
+    }
+  }
 }
