@@ -1,7 +1,7 @@
 # Automatically generated
 /dist/
 /build/
-/.reports/
+/reports/
 *.min.*
 *.map
 
