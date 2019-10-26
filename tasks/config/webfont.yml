@@ -13,7 +13,7 @@ options:
     classPrefix: octicon-
     mixinPrefix: octicon-
     fontFamilyName: Octicons
-  engine: node
+  engine: fontforge
 octicons_css:
   src: node_modules/@primer/octicons/build/svg/*.svg
   dest: build
