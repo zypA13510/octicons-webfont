@@ -11,7 +11,10 @@
         <img alt="Snyk known vulnerabilities" src="https://img.shields.io/snyk/vulnerabilities/npm/octicons-webfont.svg?logo=Snyk&style=flat-square">
     </a>
     <a href="https://www.npmjs.com/package/octicons-webfont">
-        <img alt="NPM download count" src="https://img.shields.io/npm/dw/octicons-webfont.svg?logo=npm&style=flat-square">
+        <img alt="NPM download count" src="https://img.shields.io/npm/dm/octicons-webfont.svg?logo=npm&style=flat-square">
+    </a>
+    <a href="https://www.jsdelivr.com/package/npm/ui5-fontawesome">
+        <img alt="jsDelivr hits" src="https://img.shields.io/jsdelivr/npm/hm/octicons-webfont.svg?logo=jsdelivr&style=flat-square">
     </a>
     <a href="https://github.com/zypA13510/octicons-webfont/releases">
         <img alt="GitHub download count" src="https://img.shields.io/github/downloads/zypA13510/octicons-webfont/total.svg?logo=GitHub&style=flat-square">
@@ -44,14 +47,14 @@ Dowload the package from either [NPM](https://www.npmjs.com/package/octicons-web
 ### CDN
 **Note:** It is advised to specify at least a major version to avoid breaking your app, change `^1` to your desired [semver range](https://docs.npmjs.com/misc/semver#ranges) accordingly. Additionally, you may want to pinpoint a specific version if you wish to use [SRI check](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity).
 
-#### UNPKG
-```HTML
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/octicons-webfont@^1/build/octicons.min.css">
-```
-
 #### jsDelivr
 ```HTML
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/octicons-webfont@^1/build/octicons.min.css">
+```
+
+#### UNPKG
+```HTML
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/octicons-webfont@^1/build/octicons.min.css">
 ```
 
 ## [CHANGELOG](CHANGELOG.md).
