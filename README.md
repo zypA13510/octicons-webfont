@@ -7,9 +7,6 @@
     <a href="https://codeclimate.com/github/zypA13510/octicons-webfont/maintainability">
         <img alt="Code Climate maintainability rating" src="https://img.shields.io/codeclimate/maintainability/zypA13510/octicons-webfont.svg?logo=Code-Climate&style=flat-square">
     </a>
-    <a href="https://snyk.io/test/npm/octicons-webfont">
-        <img alt="Snyk known vulnerabilities" src="https://img.shields.io/snyk/vulnerabilities/npm/octicons-webfont.svg?logo=Snyk&style=flat-square">
-    </a>
     <a href="https://www.npmjs.com/package/octicons-webfont">
         <img alt="NPM download count" src="https://img.shields.io/npm/dm/octicons-webfont.svg?logo=npm&style=flat-square">
     </a>
