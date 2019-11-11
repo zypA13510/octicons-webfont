@@ -12,7 +12,7 @@ const FORMATS = {
 
 Object.keys(FORMATS).forEach(format => {
   let fileContent
-  before(async() => {
+  before(async () => {
     fileContent = await fs.readFile(FORMATS[format], {encoding: 'utf8'})
   })
   describe(`stylesheet: ${format}`, () => {

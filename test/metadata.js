@@ -19,7 +19,7 @@ const FORMATS = {
 Object.keys(FORMATS).forEach(format => {
   describe(`metadata: ${format}`, () => {
     let fileContent, jsonObject
-    before(async() => {
+    before(async () => {
       fileContent = await fs.readFile(FORMATS[format].path, {encoding: 'utf8'})
     })
     it('is valid json', () => {

@@ -10,7 +10,7 @@ const ALERT_ICON_CODE_POINT = 61485
 ;['ttf', 'woff', 'woff2'].forEach(type => {
   describe(`font: ${type}`, () => {
     let font, numberOfIcons, numberOfFiles
-    before(async() => Promise.all([
+    before(async () => Promise.all([
       new Promise((resolve, reject) => {
         fontkit.open(`build/octicons.${type}`, (err, result) => {
           if (err) {
