@@ -1,3 +1,16 @@
+# [1.2.0](https://github.com/zypA13510/octicons-webfont/compare/v1.1.0...v1.2.0) (2019-11-21)
+
+
+### Features
+
+* **octicons:** add 2 new icons ([#11](https://github.com/zypA13510/octicons-webfont/issues/11)) ([3a2d1fb](https://github.com/zypA13510/octicons-webfont/commit/3a2d1fb8b920276d5ac779ec25826a956087175f))
+
+
+
+
+
+Built with Octicons 9.3.0
+
 # [1.1.0](https://github.com/zypA13510/octicons-webfont/compare/v1.0.0...v1.1.0) (2019-10-26)
 
 
