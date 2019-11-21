@@ -175,7 +175,7 @@
   reply: 61701
 #
 # codepoints after v4.4.0, manually allocated
-# (last one: primitive-dot-stroke 61726)
+# (last one: workflow-all 61728)
 #
   archive: 61709
   arrow-both: 61710
@@ -203,3 +203,5 @@
   shield-x: 61723
   skip: 61718
   unsaved: 61725
+  workflow: 61727
+  workflow-all: 61728

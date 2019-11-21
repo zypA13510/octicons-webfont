@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/zypA13510/octicons-webfont#readme",
   "dependencies": {
-    "@primer/octicons": "9.2.0"
+    "@primer/octicons": "9.3.0"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^8.2.0",
@@ -42,7 +42,7 @@
     "@semantic-release/changelog": "^3.0.5",
     "@semantic-release/exec": "^3.3.8",
     "@semantic-release/git": "^7.0.18",
-    "autoprefixer": "^9.7.1",
+    "autoprefixer": "^9.7.2",
     "chai": "^4.2.0",
     "commitizen": "^4.0.3",
     "commitlint": "^8.2.0",
@@ -62,7 +62,7 @@
     "mocha": "^6.2.2",
     "mocha-junit-reporter": "^1.23.1",
     "npm-run-all": "^4.1.5",
-    "semantic-release": "^15.13.30"
+    "semantic-release": "^15.13.31"
   },
   "bundledDependencies": [
     "@primer/octicons"
