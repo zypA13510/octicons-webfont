@@ -1,3 +1,16 @@
+## [1.2.1](https://github.com/zypA13510/octicons-webfont/compare/v1.2.0...v1.2.1) (2019-11-26)
+
+
+### Bug Fixes
+
+* **octicons:** upstream fix v9.3.1 ([#12](https://github.com/zypA13510/octicons-webfont/issues/12)) ([36e3798](https://github.com/zypA13510/octicons-webfont/commit/36e37981dd0996ff6788bc03bb08527d89c25461))
+
+
+
+
+
+Built with Octicons 9.3.1
+
 # [1.2.0](https://github.com/zypA13510/octicons-webfont/compare/v1.1.0...v1.2.0) (2019-11-21)
 
 
