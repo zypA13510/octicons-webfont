@@ -3,10 +3,11 @@ options:
   fontFamilyName: Octicons
   types: eot,woff,woff2,ttf,svg
   fontHeight: 96
-  normalize: false
+  normalize: true
   ascent: 84
   descent: 12
-  htmlDemo: false
+  centerHorizontally: true
+  htmlDemo: true
   codepointsFile: build/codepoints.json
   templateOptions:
     baseClass: octicon
