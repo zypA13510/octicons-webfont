@@ -58,6 +58,7 @@
     "grunt-postcss": "^0.9.0",
     "grunt-webfont": "~1.5.0",
     "if-ci": "^3.0.0",
+    "js-yaml": "^3.13.1",
     "load-grunt-config": "^3.0.1",
     "mocha": "^6.2.2",
     "mocha-junit-reporter": "^1.23.1",
