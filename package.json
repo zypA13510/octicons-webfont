@@ -87,7 +87,7 @@
   },
   "browserslist": "defaults",
   "greenkeeper": {
-    "commitMesages": {
+    "commitMessages": {
       "dependencyUpdate": "fix(deps): update dependency\n\nupdate ${dependency} to ${version}",
       "devDependencyUpdate": "build(deps): update devDependency\n\nupdate ${dependency} to ${version}",
       "lockfileUpdate": "build(deps): update lockfile ${lockfilePath}",
