@@ -62,6 +62,6 @@ MIT
 The distributed package includes the following components that are subject to separate license terms:
 
 Octicons  
-Copyright (c) 2019 GitHub Inc.  
+Copyright (c) 2020 GitHub Inc.  
 License: MIT  
 When using the GitHub logos, be sure to follow the [GitHub logo guidelines](https://github.com/logos).  

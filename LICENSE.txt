@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2019 Yuping Zuo
+Copyright (c) 2019-2020 Yuping Zuo
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -25,7 +25,7 @@ The distributed package includes the following components that are subject to
 separate license terms:
 
 Octicons
-Copyright (c) 2019 GitHub Inc.
+Copyright (c) 2020 GitHub Inc.
 License: MIT
 When using the GitHub logos, be sure to follow the GitHub logo guidelines
 (https://github.com/logos).
