@@ -37,15 +37,15 @@
     "@primer/octicons": "9.3.1"
   },
   "devDependencies": {
-    "@commitlint/config-conventional": "^8.2.0",
-    "@commitlint/prompt": "^8.2.0",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@commitlint/prompt": "^8.3.5",
     "@semantic-release/changelog": "^3.0.6",
     "@semantic-release/exec": "^3.3.8",
     "@semantic-release/git": "^7.0.18",
     "autoprefixer": "^9.7.3",
     "chai": "^4.2.0",
     "commitizen": "^4.0.3",
-    "commitlint": "^8.2.0",
+    "commitlint": "^8.3.5",
     "cssnano": "^4.1.10",
     "del": "^5.1.0",
     "eslint": "^6.7.2",
