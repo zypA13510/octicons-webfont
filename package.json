@@ -80,6 +80,11 @@
       "path": "@commitlint/prompt"
     }
   },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
   "browserslist": "defaults",
   "greenkeeper": {
     "commitMesages": {
