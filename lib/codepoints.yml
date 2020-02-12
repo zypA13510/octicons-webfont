@@ -175,7 +175,7 @@
   reply: 61701
 #
 # codepoints after v4.4.0, manually allocated
-# (last one: workflow-all 61728)
+# (last one: line-arrow-left 61734)
 #
   archive: 61709
   arrow-both: 61710
@@ -184,8 +184,14 @@
   fold-down: 61713
   fold-up: 61712
   github-action: 61720
+  heart-outline: 61729
+  infinity: 61730
   kebab-horizontal: 61706
   kebab-vertical: 61707
+  line-arrow-down: 61732
+  line-arrow-left: 61734
+  line-arrow-right: 61733
+  line-arrow-up: 61731
   note: 61705
   play: 61719
   primitive-dot-stroke: 61726
