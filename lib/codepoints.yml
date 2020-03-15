@@ -175,7 +175,7 @@
   reply: 61701
 #
 # codepoints after v4.4.0, manually allocated
-# (last one: internal-repo 61735)
+# (last one: north-star 61736)
 #
   archive: 61709
   arrow-both: 61710
@@ -193,6 +193,7 @@
   line-arrow-left: 61734
   line-arrow-right: 61733
   line-arrow-up: 61731
+  north-star: 61736
   note: 61705
   play: 61719
   primitive-dot-stroke: 61726
