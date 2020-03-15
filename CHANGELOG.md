@@ -1,5 +1,18 @@
 # CHANGELOG
 
+# [1.5.0](https://github.com/zypA13510/octicons-webfont/compare/v1.4.0...v1.5.0) (2020-03-15)
+
+
+### Features
+
+* **octicons:** add north-star ([#23](https://github.com/zypA13510/octicons-webfont/issues/23)) ([95f90ad](https://github.com/zypA13510/octicons-webfont/commit/95f90adb33f73219c09b42d5c25854d96d756225))
+
+
+
+
+
+Built with Octicons 9.6.0
+
 # [1.4.0](https://github.com/zypA13510/octicons-webfont/compare/v1.3.0...v1.4.0) (2020-03-15)
 
 
