@@ -1,5 +1,18 @@
 # CHANGELOG
 
+# [1.4.0](https://github.com/zypA13510/octicons-webfont/compare/v1.3.0...v1.4.0) (2020-03-15)
+
+
+### Features
+
+* **octicons:** add internal-repo ([#21](https://github.com/zypA13510/octicons-webfont/issues/21)) ([dafd91f](https://github.com/zypA13510/octicons-webfont/commit/dafd91f4bf7d80090f097ecaf8b8cd7fefaeebcb))
+
+
+
+
+
+Built with Octicons 9.5.0
+
 # [1.3.0](https://github.com/zypA13510/octicons-webfont/compare/v1.2.1...v1.3.0) (2020-02-12)
 
 
