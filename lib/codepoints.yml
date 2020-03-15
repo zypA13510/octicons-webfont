@@ -175,7 +175,7 @@
   reply: 61701
 #
 # codepoints after v4.4.0, manually allocated
-# (last one: line-arrow-left 61734)
+# (last one: internal-repo 61735)
 #
   archive: 61709
   arrow-both: 61710
@@ -186,6 +186,7 @@
   github-action: 61720
   heart-outline: 61729
   infinity: 61730
+  internal-repo: 61735
   kebab-horizontal: 61706
   kebab-vertical: 61707
   line-arrow-down: 61732
